@@ -47,7 +47,7 @@ data.frame(S=S) %>% ggplot(aes(S, ..density..)) +
 #Multiplicado por n es el valor esperado de eventos de una variable aleatoria.
 mu <- n * (20-18)/38
 
-#El error estandar de una variable con dos posibles resultados es abs(b-a) * sqrt(p(1-p)).
+#El error estandar de una variable con dos posibles resultados es abs(b-a) * sqrt(p*(1-p)).
 #Multiplicado por sqrt(n) es el error estandar de eventos de una variable aleatoria.
 se <- sqrt(n) * 2 * sqrt(90)/19
 
